@@ -3,7 +3,7 @@ clear all
 close all
 sca
 clc
-addpath(genpath('~/Desktop/Kendrick_PRF_LowVision/knkutils'));
+addpath(genpath('~/Documents/GitHub/Kendrick_PRF_LowVision/knkutils'));
 
 % display
 ptres = [1920 1080 120 24];  % display resolution. [] means to use current display resolution. 
@@ -32,7 +32,7 @@ movieflip = [0 0];         % [A B] where A==1 means to flip vertical dimension
                            % and B==1 means to flip horizontal dimension
 
 % directories
-stimulusdir = '~/Desktop/Kendrick_PRF_LowVision/dot_mat_files_prf';     % path to directory that contains the stimulus .mat files
+stimulusdir = '~/Documents/Kendrick_PRF_LowVision/dot_mat_files_prf';     % path to directory that contains the stimulus .mat files
 % stimulusdir = '~/Dropbox (RVL)/Kendrick_PRF_LowVision/dot_mat_files_prf';     % path to directory that contains the stimulus .mat files
 
 %Screen('Preference', 'SkipSyncTests', 1)
